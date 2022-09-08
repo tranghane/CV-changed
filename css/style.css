@@ -1,0 +1,151 @@
+body{
+  margin: 0;
+  text-align: center;
+  background-color: #f3f2f1;
+}
+p{
+  margin: 10px 0 0;
+}
+h1{
+  font-family: 'Square Peg', cursive;
+  font-size: 90px;
+  margin: 250px auto 0 auto;
+  color: #4ab19a;
+
+}
+h2{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2rem;
+  margin: 30px 0;
+  color: #4ab19a;
+  font-weight: normal;
+}
+h3{
+  font-family: 'PT Sans', sans-serif;
+  color: #11999E;
+}
+a{
+  color: #11999E;
+  text-decoration: none;
+  padding: 15px;
+  font-family: 'PT Serif', serif;
+}
+a:hover{
+  color: #EAF6F6;
+  font-family: 'PT Serif', serif;
+}
+p{
+  font-family: 'PT Serif', serif;
+  font-size: 25px;
+  margin: 0 0;
+}
+hr {
+    border-style: dotted none none;
+    color: #DDDDDD;
+    height: 10px;
+    border-width: 7px;
+    width: 5%;
+    margin: 50px auto;
+}
+
+.top{
+  background-color: #e6ebeb;
+  position: relative;
+  height: 700px;
+}
+.middle-container{
+
+  margin: 35px auto;
+}
+.bottom-container{
+  margin-top: 70px;
+  background-color: #66BFBF;
+}
+.cloud{
+  position: absolute;
+  bottom: 350px;
+  right: 250px;
+}
+.mountain{
+  bottom: 150px;
+  right: auto;
+  position: relative;
+}
+.sun{
+  position: absolute;
+  top: 50px;
+  left: 300px;
+}
+.intro{
+  position: relative;
+  bottom: 160px;
+}
+.under-howdy{
+  width: 40%;
+  margin: 20px auto;
+}
+
+
+.skill-row{
+  width: 50%;
+  margin: 20px auto;
+  text-align: left;
+}
+.code-img{
+  float: left;
+  width: 30%;
+  margin-right: 30px;
+}
+.sport-img{
+  float: right;
+  width: 30%;
+  margin-left: 30px;
+}
+
+
+
+.git{
+  font-size: 30px
+}
+.quest{
+  margin: 40px auto 60px;
+  font-size: 20px;
+}
+
+.social-medias{
+  padding-top: 30px;
+}
+.license{
+  font-size: 12px;
+  padding: 30px 0;
+  color: #EAF6F6;
+}
+
+/*contact me button*/
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'PT Sans', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+  color: #ffffff;
+}
